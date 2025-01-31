@@ -76,92 +76,76 @@ npm >= 9.0.0
 git
 
 
-Frontend Setup
+### Frontend Setup
 Clone the repository:
-
-bash
-Copy
 git clone https://github.com/nashihamm/landing-page-builder.git
 cd landing-page-builder
-Install dependencies:
 
-bash
-Copy
+## Install dependencies:
+
+
 cd frontend
 npm install
 Environment setup:
 Create .env.local:
 
 env
-Copy
 NEXT_PUBLIC_API_URL=http://localhost:8000/api
 Start development server:
 
-bash
-Copy
+
 npm run dev
 # Server runs on http://localhost:3000
 Backend Setup
 Navigate to backend:
 
-bash
-Copy
+
 cd backend
 Install dependencies:
 
-bash
-Copy
+
 npm install
 Environment setup:
 Create .env:
 
 env
-Copy
 PORT=8000
 DATABASE_URL="your-database-url"
 JWT_SECRET="your-jwt-secret"
 Database setup:
 
-bash
-Copy
+
 npm run migrate
 Start backend server:
 
-bash
-Copy
+
 npm run dev
 # API runs on http://localhost:8000
 🤝 Contributing
 We welcome contributions! Follow these steps:
 
-Fork the Repository:
-
-bash
-Copy
+# Fork the Repository:
 # Click Fork button on GitHub
+
 Clone your fork:
 
-bash
-Copy
-git clone https://github.com/your-username/landing-page-builder.git
-Create a branch:
+`git clone https://github.com/nashihamm/landing-page-builder.git`
 
-bash
-Copy
+*Create a branch:*
+```
 git checkout -b feature/amazing-feature
+
 Make changes and commit:
-
-bash
-Copy
+```
 git commit -m 'Add amazing feature'
-Push to your fork:
 
-bash
-Copy
+Push to your fork:
+```
 git push origin feature/amazing-feature
+
 Open a Pull Request
 
-Contribution Guidelines
+# Contribution Guidelines
 Follow existing code style
 
 Write meaningful commit messages
@@ -172,9 +156,8 @@ Add tests for new features
 
 Ensure all tests pass
 
-📁 Project Structure
+### 📁 Project Structure
 text
-Copy
 landing-page-builder/
 ├── frontend/
 │   ├── app/
@@ -199,34 +182,31 @@ landing-page-builder/
     │   ├── routes/
     │   └── services/
     └── package.json
-📖 Documentation
+    
+### 📖 Documentation
 API Documentation
 API documentation is available at:
 
-text
-Copy
+
 http://localhost:8000/api/docs
 Environment Variables
 Frontend (.env.local):
 
 env
-Copy
 NEXT_PUBLIC_API_URL=http://localhost:8000/api
 Backend (.env):
 
 env
-Copy
 PORT=8000
 DATABASE_URL="your-database-url"
 JWT_SECRET="your-jwt-secret"
-🎯 Roadmap
+
+### 🎯 Roadmap
 Component Templates
-Add more pre-built components
-
-Custom component creation
-
-Collaboration Features
-Real-time editing
+ - Add more pre-built components
+ - Custom component creation
+ - Collaboration Features
+    - Real-time editing
 
 Team permissions
 
@@ -237,23 +217,19 @@ JavaScript injection
 
 Custom fonts
 
-🐛 Bug Reports
+### 🐛 Bug Reports
 Submit bug reports through GitHub Issues including:
 
-Bug description
+- Bug description
+- Steps to reproduce
+- Expected behavior
+- Actual behavior
+- Screenshots (if applicable)
 
-Steps to reproduce
-
-Expected behavior
-
-Actual behavior
-
-Screenshots (if applicable)
-
-📄 License
+### 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-📞 Contact
+### 📞 Contact
 Developer: @nashihamm
 
 Project: landing-page-builder
